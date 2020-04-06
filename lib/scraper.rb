@@ -16,8 +16,9 @@ class Scraper
     end
   end
 
-def get_page(html)
-doc = open(html)
+def get_page
+  binding.pry
+
 end
 
 
