@@ -22,7 +22,7 @@ doc = open("http://learn-co-curriculum.github.io/site-for-scraping/courses")
 doc = doc = Nokogiri::HTML(doc)
 end
 
-def get_course
+def get_courses
 doc.css("div#text")
 end
 
