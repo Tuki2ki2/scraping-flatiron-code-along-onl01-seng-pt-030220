@@ -23,7 +23,6 @@ doc = Nokogiri::HTML(doc)
 end
 
 def get_courses
-binding.pry
 end
 
 end
