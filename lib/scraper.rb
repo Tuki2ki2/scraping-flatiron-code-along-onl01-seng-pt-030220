@@ -23,7 +23,7 @@ doc = Nokogiri::HTML(doc)
 end
 
 def get_courses
-get page
+get_page
 doc.css("div#text")
 end
 
