@@ -26,7 +26,6 @@ def get_courses
   doc = open("http://learn-co-curriculum.github.io/site-for-scraping/courses")
   doc = Nokogiri::HTML(doc)
   course = doc.css("div #course-grid")
-  binding.pry
 end
 
 end
