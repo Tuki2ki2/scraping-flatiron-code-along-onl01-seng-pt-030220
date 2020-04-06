@@ -30,6 +30,7 @@ end
 
 def make_courses
   get_courses
+  course
 end
 
 end
