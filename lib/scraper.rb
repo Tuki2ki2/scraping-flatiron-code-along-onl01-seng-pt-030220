@@ -28,4 +28,6 @@ def get_courses
   course = doc.css("div #course-grid")
 end
 
+def make_courses
+
 end
